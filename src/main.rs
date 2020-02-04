@@ -1,5 +1,5 @@
 extern "C" {
-    fn doubler(x: i32) -> i32;
+    pub fn doubler(x: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
 }
 
 fn main() {
